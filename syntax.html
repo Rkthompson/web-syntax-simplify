@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SyntaxSimplify: Syntax @syntaxsimplify, Code, Coding, Development</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/syntax.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="wrapper">
+<header>
+<h1 class="visually-hidden">Syntax Simplify</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="intro.html">Intro</a></li>
+    <li><a href="syntax.html">Syntax</a></li>
+    <li><a href="newsletter.html">News</a></li>
+  </ul>
+</nav>
+<main>
+<div>
+<img src="images/question_mk4.png" alt="Question Mark" 
+class="floatright" width="296" height="343">
+<h2>What langauge should I learn first?  </h2>
+<p>
+What’s best? Python? Java? C++? 
+</p>
+<h2>Answer:  None of these.</h2>
+<p>Python might have the least amount of typing.  Java is used in enterprise 
+systems across the globe.  C++ is the performance king.
+</p>
+<p>But none these are the best language to learn first.  
+<span class="bold">They are all tools to be used when they fit the job.</span>
+</p>
+<p>The best first language to learn is thinking like an experienced Developer.  
+<span class="bold">Think in terms of the process that needs to happen.</span>  
+</p>
+<p>If you use Pseudo Code to write out the process needed then the 
+<span class="italic_bold">syntax for programming languages will become 
+interchangeable</span> to you.  
+</p>
+<p>The sooner you start thinking in process terms the faster you will grow at 
+finding solutions.
+</p>
+<hr style="height:2px; width: 85%; 
+border-width:0;color:#b2b2ad;background-color:#b2b2ad">
+<h2>The Syntax Breakdown  </h2>
+<p>Let's look at examples of a Repetition Structure.  Probably one of the most 
+powerful basic structures in computer programming.</p>
+<h3>Display "Hello Internet" 3 times</h3>
+<table>
+  <caption>As Pseudo Code</caption>
+  <tr> 
+    <th>Process</th>
+	<th>Code</th>
+  </tr>
+  <tr>
+    <td>Initialize your starting point</td> 
+	<td>Declare Integer counter = 1</td>
+  </tr>
+  <tr>
+    <td>Start Loop &amp; Compare counter to your end point</td> 
+	<td>While counter &lt;= 3</td>
+  </tr>
+  <tr>
+    <td>Display output</td> 
+	<td>Display "Hello Internet"</td>
+  </tr>
+  <tr>
+    <td>Update your counter after each iteration</td>
+	<td>Set counter = counter + 1</td>
+  </tr>
+    <tr>
+    <td>Close your Loop</td> 
+	<td>End While</td>
+  </tr>
+</table>
+<table>
+  <caption>As Python</caption>
+  <tr> 
+    <th>Process</th>
+	<th>Code</th>
+  </tr>
+  <tr>
+    <td>Initialize your starting point</td> 
+	<td>count = 0</td>
+  </tr>
+  <tr>
+    <td>Start Loop &amp; Compare counter to your end point</td> 
+	<td>while count &lt; 3:</td>
+  </tr>
+  <tr>
+    <td>Display output</td> 
+	<td>print('Hello Internet')</td>
+  </tr>
+  <tr>
+    <td>Update your counter after each iteration</td>
+	<td>count = count + 1</td>
+  </tr>
+    <tr>
+    <td>Close your Loop</td> 
+	<td><span class="italic">Empty - Not used in Python</span></td>
+  </tr>
+</table>
+<table>
+  <caption>As Java</caption>
+  <tr> 
+    <th>Process</th>
+	<th>Code</th>
+  </tr>
+  <tr>
+    <td>Initialize your starting point</td> 
+	<td>int count = 0;</td>
+  </tr>
+  <tr>
+    <td>Start Loop &amp; Compare counter to your end point</td> 
+	<td>while(count &lt; 3){</td>
+  </tr>
+  <tr>
+    <td>Display output</td> 
+	<td>System.out.println("Hello Internet");</td>
+  </tr>
+  <tr>
+    <td>Update your counter after each iteration</td>
+	<td>count++;</td>
+  </tr>
+    <tr>
+    <td>Close your Loop</td> 
+	<td>}</td>
+  </tr>
+  </table>
+  <table>
+  <caption>As C++</caption>
+  <tr> 
+    <th>Process</th>
+	<th>Code</th>
+  </tr>
+  <tr>
+    <td>Initialize your starting point</td> 
+	<td>int count = 0;</td>
+  </tr>
+  <tr>
+    <td>Start Loop &amp; Compare counter to your end point</td> 
+	<td>while(count &lt; 3){</td>
+  </tr>
+  <tr>
+    <td>Display output</td> 
+	<td>cout &lt;&lt; "Hello Internet" &lt;&lt; endl;</td>
+  </tr>
+  <tr>
+    <td>Update your counter after each iteration</td>
+	<td>count++;</td>
+  </tr>
+    <tr>
+    <td>Close your Loop</td> 
+	<td>}</td>
+  </tr>
+</table>
+<h2>
+What can we learn from studying these examples?
+</h2>
+<p>
+<span class="bold">The Syntax</span> that is so confusing when we first start 
+learning code <span class="bold">isn’t the most important part.</span>  All of 
+these examples share the same structure of process.  
+</p>
+<p>The differences in syntax between <span class="italic">print</span> or 
+<span class="italic">System.out.println</span> or 
+<span class="italic">cout</span> doesn't matter as much as you knowing that 
+you're going to write output to the console each iteration of the loop.
+</p>
+<p>Look beyond that to the second to last line at 
+<span class="italic">count++;</span> and <span class="italic">count = 
+count +1</span>.  The important part is knowing that you need to update your 
+Loop Control Variable or you'll have an endless loop.</p>
+<p>
+If we focus on the process and logic of an algorithm, we can always find the 
+correct syntax for the language we’re working in.  
+<span class="bold_underline">It’s more important that we understand our 
+starting point, the desired output, and the processes needed between 
+them.</span>
+</p>
+<br>
+</div>
+</main>
+<footer>
+<nav class="visually-hidden">
+<a href="index.html">Home</a> &nbsp; 
+<a href="intro.html">Intro</a> &nbsp; 
+<a href="syntax.html">Syntax</a> &nbsp; 
+<a href="newsletter.html">News</a>
+</nav>
+For more information contact: 
+<a href="mailto:robertkellythompson@gmail.com">
+robertkellythompson@gmail.com</a><br>
+Copyright &copy; 2020 SyntaxSimplify, LLC<br>
+</footer>
+</div>
+</body>
+</html>
