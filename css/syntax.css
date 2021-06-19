@@ -10,7 +10,7 @@ body 	{ 	background-color: grey;
 			background-attachment: fixed;
 }
 header 	{ 	background-color: White;
-			background-image: url(../images/ss_Logo_v7_largest.JPG), linear-gradient(to left, #ca50e3, #4cdcf4, white 66%);
+			background-image: url(../images/ss_Logo_v7_largest.png), linear-gradient(to left, #ca50e3, #4cdcf4, white 66%);
 			background-position: left, right;
 			background-repeat: no-repeat;
 			background-size: 174px 117px, cover;
@@ -254,7 +254,7 @@ form { padding: 3em;
 }
 @media only all and (max-width: 768px) {
 	header 	{ 	
-			background-image: url(../images/ss_Logo_v7_largest.JPG), linear-gradient(to left, #ca50e3, #4cdcf4, white 62%);
+			background-image: url(../images/ss_Logo_v7_largest.png), linear-gradient(to left, #ca50e3, #4cdcf4, white 62%);
 	}
 	h1 { font-size: 2em;
 	     padding-top: 0.25em;
